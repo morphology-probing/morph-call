@@ -1,0 +1,55 @@
+from typing_extensions import Literal
+
+
+BERT_MULTILINGUAL_A_NAME = "multilingual_bert"  # do not touch
+XLMR_A_NAME = "xlmr"  # do not touch
+BERT_DISTIL_A_NAME = "dbert"
+MINILM_A_NAME = "minilm"
+MODELS_ARCHITECTURES_T = Literal[
+    BERT_MULTILINGUAL_A_NAME, BERT_DISTIL_A_NAME, XLMR_A_NAME, MINILM_A_NAME
+]
+MODELS_ARCHITECTURES = (
+    BERT_MULTILINGUAL_A_NAME,
+    BERT_DISTIL_A_NAME,
+    XLMR_A_NAME,
+    MINILM_A_NAME,
+)
+MODELS_ARCHITECTURES2LAYERS_NUM = {
+    BERT_MULTILINGUAL_A_NAME: 12,
+    BERT_DISTIL_A_NAME: 6,
+    XLMR_A_NAME: 12,
+    MINILM_A_NAME: 12,
+}
+
+SUBSAMPLES_NAMES = ("train", "test", "dev")
+
+INDEX_COLNAME = "_INDEX"
+PROBING_COLUMN_NAME = "ok_for_baseline"
+AGGREGATED_DB_NAME = "aggregated_db"
+TARGET_COLNAME = "label"
+DUPLICATE_SENTENCE_TEXT_COLNAME = "text2"
+SENTENCE_TEXT_COLNAME = "text"
+LOG_FORMAT = "\t".join(["%(asctime)s", "%(message)s"])
+FAKE_TOK_IX = -1
+
+TOKEN_IX_COLNAME = "token_i"
+
+O2B_TABLE_NAME = "origtobert"
+PROBING_TABLE_NAME = "probing_dataset"
+TOKENIZED_COLNAME = "sentence_tokenized"
+BERT_IX_COLNAME = "bert_token_ix"
+ORIG_TOK_IX_COLNAME = "orig_token_ix"
+PROBING_ITEM_IX_COLNAME = "PROBING_ITEM_IX"
+SENTENCE_IX_COLNAME = "SENTENCE_IX"
+
+SUBSAMPLE_COLNAME = "subset"
+TRAIN_SUBSAMPLE_NAME = "tr"
+TEST_SUBSAMPLE_NAME = "te"
+VAL_SUBSAMPLE_NAME = "va"
+WORD_COLNAME = "word"
+
+LOGGER_NAME = "probing"
+N_FOLDS = 5
+LOGERG_ITER = 1000
+
+DO_MASKING = False

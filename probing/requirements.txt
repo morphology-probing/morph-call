@@ -1,0 +1,7 @@
+torch
+transformers==3.3.1
+pyconll
+typing_extensions
+sqlitedict
+decorator
+-e git+https://github.com/google/python-fire.git#egg=fire
