@@ -3,9 +3,9 @@ Morph Call is a suite of 46 probing tasks for four Indo-European languages that 
 
 The tasks are divided into four groups:
 
-* [Morphosyntactic Features](https://github.com/morphology-probing/morph-call/tree/main/data/morphosyntactic_features): probe the encoder forthe occurrence of the morphosyntactic properties.
+* [Morphosyntactic Features](https://github.com/morphology-probing/morph-call/tree/main/data/morphosyntactic_features): probe the encoder for the occurrence of the morphosyntactic properties.
 * Masked Token: analogous to [Morphosyntactic Features](https://github.com/morphology-probing/morph-call/tree/main/data/morphosyntactic_features) with the exception that the target word is replaced with a tokenizer-specific mask token.
-* [Morphosyntactic Values](https://github.com/morphology-probing/morph-call/tree/main/data/morphosyntactic_values): is a group of k-way clas-sification tasks for each feature wherekis the num-ber of values that the feature can take.
+* [Morphosyntactic Values](https://github.com/morphology-probing/morph-call/tree/main/data/morphosyntactic_values): is a group of k-way classification tasks for each feature where *k* is the number of values that the feature can take.
 * [Perturbations](https://github.com/morphology-probing/morph-call/tree/main/data/perturbations): tasks test the encoder sensitivity to syntactic and inflectional sentence perturbations.
 
 ## Probing Methods
