@@ -10,7 +10,7 @@ The tasks are divided into four groups:
 
 ## Probing Methods
 
-* [Supervised probing](https://github.com/morphology-probing/morph-call/tree/main/probing) involves training a Logistic Regression from scikit-learn library to predict a property. The performance is a proxy to evaluate the model knowledge.
+* [Supervised probing](https://github.com/morphology-probing/morph-call/tree/main/probing) involves training a Logistic Regression classifier to predict a property. The performance is used as a proxy to evaluate the model knowledge.
 * [Neuron-level Analysis](https://github.com/fdalvi/NeuroX) [Durrani et al., 2020] allows retrieving a group of individual neurons that are most relevant to predict a linguistic property.
 * [Contextual Correlation Analysis](https://github.com/johnmwu/contextual-corr-analysis/tree/master) [Wu et al., 2020] is a representation-level similarity measure that allows identifying pairs of layers of similar behavior. 
 
