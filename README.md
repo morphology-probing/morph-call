@@ -83,3 +83,14 @@ FLAGS
 
 ## Cite
 The paper is accepted to the 3rd Workshop of the ACL Special Interest Group on Typology (SIGTYP) at NAACL, 2021. The title follows the morphing calls that were used by Power Rangers to call their powers.
+
+```
+@misc{mikhailov2021morph,
+      title={Morph Call: Probing Morphosyntactic Content of Multilingual Transformers}, 
+      author={Vladislav Mikhailov and Oleg Serikov and Ekaterina Artemova},
+      year={2021},
+      eprint={2104.12847},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
