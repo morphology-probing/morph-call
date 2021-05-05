@@ -82,7 +82,7 @@ FLAGS
 
 
 ## Cite
-The paper is accepted to the 3rd Workshop of the ACL Special Interest Group on Typology (SIGTYP) at NAACL, 2021. The title follows the morphing calls that were used by Power Rangers to call their powers.
+The [paper](https://arxiv.org/abs/2104.12847) is accepted to the 3rd Workshop of the ACL Special Interest Group on Typology (SIGTYP) at NAACL, 2021. The title follows the morphing calls that were used by Power Rangers to call their powers.
 
 ```
 @misc{mikhailov2021morph,
