@@ -85,12 +85,19 @@ FLAGS
 The [paper](https://arxiv.org/abs/2104.12847) is accepted to the 3rd Workshop of the ACL Special Interest Group on Typology (SIGTYP) at NAACL, 2021. The title follows the morphing calls that were used by Power Rangers to call their powers.
 
 ```
-@misc{mikhailov2021morph,
-      title={Morph Call: Probing Morphosyntactic Content of Multilingual Transformers}, 
-      author={Vladislav Mikhailov and Oleg Serikov and Ekaterina Artemova},
-      year={2021},
-      eprint={2104.12847},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{mikhailov-etal-2021-morph,
+    title = "Morph Call: Probing Morphosyntactic Content of Multilingual Transformers",
+    author = "Mikhailov, Vladislav  and
+      Serikov, Oleg  and
+      Artemova, Ekaterina",
+    booktitle = "Proceedings of the Third Workshop on Computational Typology and Multilingual NLP",
+    month = jun,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.sigtyp-1.10",
+    doi = "10.18653/v1/2021.sigtyp-1.10",
+    pages = "97--121",
+    abstract = "The outstanding performance of transformer-based language models on a great variety of NLP and NLU tasks has stimulated interest in exploration of their inner workings. Recent research has been primarily focused on higher-level and complex linguistic phenomena such as syntax, semantics, world knowledge and common-sense. The majority of the studies is anglocentric, and little remains known regarding other languages, specifically their morphosyntactic properties. To this end, our work presents Morph Call, a suite of 46 probing tasks for four Indo-European languages of different morphology: Russian, French, English and German. We propose a new type of probing tasks based on detection of guided sentence perturbations. We use a combination of neuron-, layer- and representation-level introspection techniques to analyze the morphosyntactic content of four multilingual transformers, including their understudied distilled versions. Besides, we examine how fine-tuning on POS-tagging task affects the probing performance.",
 }
 ```
